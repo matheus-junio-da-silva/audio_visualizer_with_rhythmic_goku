@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+#canvas1 {
+    margin: auto auto;
+    width: min(100%, 100vh);
+    height: min(100%, 100vw);
+}
+
+
+
+#sprite {
+    background-repeat: no-repeat;
+}
+
+
+#gokuContainer {
+    position: relative;
+}
+
+
+.gokuBlock {
+    display: block !important;
+}
+
+.gokuNone {
+    display: none;
+}
+
+.base {
+    background-image: url('goku-ssj-powerup-sheet.png');
+    width: 210px;
+    height: 257px;
+    position: absolute;
+    z-index: 9999999;
+    display: none;
+}
+
+
+
+.powerup.base {
+    width: 210px;
+    height: 257px;
+    background-image: url('goku-ssj-powerup-sheet.png');
+    animation: powerup .2s steps(2);
+}
+
+
+
+@keyframes powerup {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -513px;
+    }
+}
+

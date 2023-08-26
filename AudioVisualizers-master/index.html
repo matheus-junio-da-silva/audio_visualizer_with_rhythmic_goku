@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="menu">
+                <audio id="audio1" controls></audio>
+                <input type="file" id="fileUpload" accept="audio/*" />
+                <select id="visualiserShape">
+                    <option value="vertical-bars">Vertical bars</option>
+                    <option value="circular-bars">Circular bars</option>
+                    <option value="spiral-bars">Spiral bars</option>
+                    <option value="whirl">Whirl</option>
+                    <option value="dot-galaxy">Dot galaxy</option>
+                    <option value="vertical-bars-double">Vertical bars double</option>
+                </select>
+                <select id="numberOfBars">
+                    <option value="32">16</option>
+                    <option value="64">32</option>
+                    <option value="128">64</option>
+                    <option value="256">128</option>
+                    <option value="512">256</option>
+                    <option value="1024">512</option>
+                    <option value="2048">1024</option>
+                </select>
+                <select id="barsColors">
+                    <option value="color1">color1</option>
+                    <option value="color2">color2</option>
+                    <option value="color3">color3</option>
+                </select>
+                <select id="rhythmicGoku">
+                    <option value="none-goku">None Goku</option>
+                    <option value="rhythmic-goku">Rhythmic Goku</option>
+                </select>
+            </div>
+            <div id="gokuContainer"><div id="sprite" class="base"></div></div>
+            <canvas id="canvas1"></canvas>
+        </div>
+    </body>
+</html>
