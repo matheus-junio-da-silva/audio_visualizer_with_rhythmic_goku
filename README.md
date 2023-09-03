@@ -3,4 +3,3 @@ My project is an audio visualizer with 5 different forms made in HTML, CSS and J
 
 The purpose of this project is to demonstrate my skills in web development and graphic design, as well as create an interactive and fun experience for users.
 
-The project is available on GitHub, where you can view the source code, usage instructions, and an online demo. I hope you like my work and feel free to give me feedback or suggestions for improvement.
